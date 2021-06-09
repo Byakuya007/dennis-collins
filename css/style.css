@@ -35,17 +35,17 @@ body {
   width: 30px;
   cursor: pointer;
   margin-right: 40px;
-
+  background-color: black;
  }
 nav{
-   background: black;
+   background: brown;
    flex: 1;
    text-align: right;
    heigth: 80px;
    width: 100%
  }
  label.logo{
-   color: white;
+   color: black;
    font-size: 40px;
    line-height: 85px;
    padding: 0 100px;
@@ -63,14 +63,14 @@ nav{
  }
  nav ul li a{
    text-decoration: none;
-   color: #fff;
+   color: black;
    font-size: 16 px;
    padding: 7px 13px;
    border-radius: 3px
    text-transform: uppercase;
  }
  a.active,a:hover{
-   background: #1b9bff;
+   background: orange;
    transition: .5s;
  }
 .row {
@@ -82,19 +82,19 @@ nav{
   flex-basis: 100%
 }
 h1{
-  color: #fff;
+  color: orange;
   font-size: 40px;
 }
 p{
-  color: #fff;
-  font-size: 11px;
-  line-height:  15px;
+  color: black;
+  font-size: 15px;
+  line-height:  12px;
 }
 button{
   width: 180px;
-  color: #000;
+  color: orange;
   font-size: 12px; 0;
-  background: #fff
+  background: brown;
   border: 0;
   border-radius: 20px;
   margin-top: 25px;
@@ -115,19 +115,14 @@ button{
   background-position: center;
   background-size: cover;
 }
-.card1 {
-  background-image: url(./../images/den.jpg) no-repeat center center fixed);
-}
-.card2 {
-  background-image: url(url(./../images/friends.jpg) no-repeat center center fixed);
-}
-.card3 {
-  background-image: url(url(./../images/hhh.jpg) no-repeat center center fixed);
-}
 .card:hover{
   transform: translate(-10px);
 }
 h3{
-  color: #fff
+  color: orange;
   text-shadow: 0 0 5px #999
+  background-color: inherit;
+}
+.card {
+  background-color: brown;
 }
