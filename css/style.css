@@ -45,7 +45,7 @@ button {
     padding: 8px 25px;
     background: transparent;
     outline: none;
-    border: 2px solid rgb(5, 5, 5);
+    border: 2px solid rgb(7, 7, 8);
     border-radius: 20px;
     color: rgb(5, 5, 5);
     font-size: 12px;
@@ -65,7 +65,7 @@ button {
 
 .info {
     width: 550px;
-    color: rgb(5, 5, 5);
+    color: rgb(46, 69, 85);
     position: absolute;
     right: 0;
     top: 50%;
@@ -79,7 +79,7 @@ button {
 
 .info p {
     color: rgb(5, 5, 5);
-    font-size: 15px;
+    font-size: 17px;
     margin: 20px 0;
     line-height: 18px;
 }
