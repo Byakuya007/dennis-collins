@@ -43,10 +43,10 @@
         <div class="slider">
             <img src="images/left-arrow.jpg" id="prev">
             <div class="preview">
-                <img src="images/sahara.jpg" class="active thumbnail">
-                <img src="images/nature.jpg" class="thumbnail">
-                <img src="images/rednature.jpg" class="thumbnail">
-                <img src="images/waterfall.jpg" class="thumbnail">
+                <img src="images/sahara2.jpg" class="active thumbnail">
+                <img src="images/nature3.jpg" class="thumbnail">
+                <img src="images/rednature4.jpg" class="thumbnail">
+                <img src="images/waterfall5.jpg" class="thumbnail">
             </div>
             <img src="images/right-arrow.jpg" id="prev">
         </div>
@@ -57,19 +57,19 @@
     <script>
         var prev = document.getElementById("prev");
         var next = document.getElementById("next");
-        var thumbnail = document.getElementsByIdByClassName("thumbnail");
+        var thumbnail = document.getElementById("thumbnail");
         var hero = document.getElementById("hero");
 
         var backgroundImg = new Array(
-            "images/background.jpg",
-            "images/sahara.jpg",
-            "images/nature.jpg",
-            "images/rednature.jpg",
-            "images/waterfall.jpg",
+            "images/background1.jpg",
+            "images/sahara2.jpg",
+            "images/nature3.jpg",
+            "images/rednature4.jpg",
+            "images/waterfall5.jpg",
         );
         let i = 0;
-        next.onclick = function() {
-            hero.style.backgroundImage = 'img("' + backgroundImg[i + 1] + '")';
+        onclick = function() {
+            hero.style.backgroundImage = 'url("' + backgroundImg[i + 1] + '")';
             i++;
         }
     </script>
