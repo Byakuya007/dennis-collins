@@ -61,3 +61,12 @@ button {
     left: 0;
     top: 0;
 }
+
+.info {
+    width: 550px;
+    color: rgb(5, 5, 5);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
