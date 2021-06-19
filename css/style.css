@@ -70,3 +70,15 @@ button {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.info h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.info p {
+    color: rgb(5, 5, 5);
+    font-size: 11px;
+    margin: 20px 0;
+    line-height: 18px;
+}
