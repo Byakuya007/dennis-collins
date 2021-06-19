@@ -25,8 +25,9 @@
 
 .navbar .logo {
     width: 60px;
-    margin: 30px 0;
+    margin-top right: 30px 0;
     cursor: pointer;
+    top
 }
 
 .user {
@@ -55,7 +56,7 @@ button {
 .container {
     width: 50%;
     height: 100vh;
-    background: rgb (86, 86, 0.3);
+    background: transparent;
     backdrop-filter: blur(10px);
     position: absolute;
     left: 0;
@@ -78,7 +79,55 @@ button {
 
 .info p {
     color: rgb(5, 5, 5);
-    font-size: 11px;
+    font-size: 15px;
     margin: 20px 0;
     line-height: 18px;
+}
+
+.info input {
+    width: 50%;
+    padding: 8px 10px;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+}
+
+::placeholder {
+    color: #ccc;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+
+#prev,
+#next {
+    width: 10px;
+    cursor: pointer;
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+}
+
+.preview img {
+    width: 60px;
+    margin: 0 10px;
+    opacity: 0.4;
+}
+
+.preview .active {
+    display: block;
+    border: 3px solid #fff;
+    width: 100px;
+    opacity: 1;
 }

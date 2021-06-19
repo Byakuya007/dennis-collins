@@ -27,22 +27,52 @@
                 <h1>ADVENTURES</h1>
                 <P>Welcome to my life.Whats life without adventures?Get to know me by exploring my website and places i have been and what i have been up to in the past couple of months. Since the pandemic started i have been trying to explore different
                     parts of myself. For whats life without happiness, or life without the people we love!</P>
+                <p><a href="https://byakuya007.github.io/my-first-website/">Vist my fist website!</a></p>
+                <h2>ABOUT ME</h2>
+                <P>My name is Dennis Collins Thumbi and am all about that coding life.My hobbies include;
+                    <ul>
+                        <li>football</li>
+                        <li>gaming</li>
+                        <li>Nature walks/Hiking</li>
+                    </ul>
+                </P>
+
                 <input type="text" placeholder="Search">
             </div>
         </div>
         <div class="slider">
             <img src="images/left-arrow.jpg" id="prev">
             <div class="preview">
-                <img src="images/sahara.jpg" class="thumbnail">
-                <img src="images/.jpg" class="thumbnail">
-                <img src="images/sahara.jpg" class="thumbnail">
-                <img src="images/sahara.jpg" class="thumbnail">
-
+                <img src="images/sahara.jpg" class="active thumbnail">
+                <img src="images/nature.jpg" class="thumbnail">
+                <img src="images/rednature.jpg" class="thumbnail">
+                <img src="images/waterfall.jpg" class="thumbnail">
             </div>
-
             <img src="images/right-arrow.jpg" id="prev">
         </div>
+
     </div>
+
+
+    <script>
+        var prev = document.getElementById("prev");
+        var next = document.getElementById("next");
+        var thumbnail = document.getElementsByIdByClassName("thumbnail");
+        var hero = document.getElementById("hero");
+
+        var backgroundImg = new Array(
+            "images/background.jpg",
+            "images/sahara.jpg",
+            "images/nature.jpg",
+            "images/rednature.jpg",
+            "images/waterfall.jpg",
+        );
+        let i = 0;
+        next.onclick = function() {
+            hero.style.backgroundImage = 'img("' + backgroundImg[i + 1] + '")';
+            i++;
+        }
+    </script>
 
 
 
